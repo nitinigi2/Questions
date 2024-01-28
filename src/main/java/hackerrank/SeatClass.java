@@ -5,7 +5,7 @@ public enum SeatClass {
     FIRST_CLASS(100.0),
     SECOND_CLASS(50.0);
 
-    private final double fixedPrice;
+    private final Double fixedPrice;
 
     SeatClass(double fixedPrice) {
         this.fixedPrice = fixedPrice;
